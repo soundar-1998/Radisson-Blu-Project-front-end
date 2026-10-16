@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;  
+}
+nav{
+    background-color: rgb(249, 249, 1);
+    color:rgb(36, 35, 35);
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+    align-items: center;
+}nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30%;
+  
+}nav ul a{
+    font-size: 20px;
+    font-weight: 300;
+    color:rgb(10, 10, 10);
+    text-decoration: none;
+}nav ul a:hover{
+    color:limegreen;
+}
