@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.footer
+{
+    background-color: #17212D;
+}
+.btn
+{
+    color:#fff;
+    background-color: rgb(248,68,100);
+    font-size: 18px;
+}
+.btn:hover
+{
+    background-color: #DF1827;
+    color:#fff;
+}
+.one,.two,.three
+{
+    padding: 30px 100px;
+}
+.customer
+{
+    background-color: #1b1b1b ;
+}
+.one i,.two i,.three i
+{
+    font-size: 40px;
+    display:block;
+    color:rgb(139, 139, 139);
+    padding-bottom: 10px;
+}
+.one a,.two a,.three a
+{
+    color:rgb(139, 139, 139);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.one a:hover,.two a:hover,.three a:hover
+{
+    color:white;
+}
+.one a:hover i,.two a:hover i,.three a:hover i
+{
+    color:white;
+}
+
+.row .col .foot
+{
+    color:#e9e8e8;
+    font-size: 16px;
+    font-weight: 600;
+}
+.row .col .link a
+{
+    color:#5a5959;
+    text-decoration: none;
+    font-size: 16px;
+    display:block;
+    padding:5px;
+}
+.row .col a:hover
+{
+    color:#fff;
+    text-decoration: underline;
+}
+.hr
+{
+    color: white;
+}
+.hr .img
+{
+    text-align: center;
+}
+.social i
+{
+    font-size: 40px;
+    padding-left: 15px;
+    color: #999EA5;
+}
+.social .fa-square-facebook:hover
+{
+    color: #0165E1;
+}
+.social .fa-square-x-twitter:hover
+{
+    color: #000;
+    
+}
+.social  .fa-square-instagram:hover
+{
+   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+   -webkit-background-clip: text;
+   background-clip:calc();
+    -webkit-text-fill-color: transparent;
+}
+.social .fa-youtube:hover
+{
+    color: #ff0000;
+}
+.social .fa-square-pinterest:hover
+{
+    color: #e60023;
+}
+.social .fa-linkedin:hover
+{
+    color: #0a66c2;
+}.footer{
+    overflow-x: hidden;
+}

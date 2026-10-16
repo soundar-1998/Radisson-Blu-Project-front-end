@@ -1,0 +1,80 @@
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .toggle-btn {
+    margin-bottom:-200px;
+    margin-left: 1380px;
+    
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .get input {
+    width: 50%; /* Set the width */
+    height: 30px; /* Set the height */
+    font-size: 14px; /* Adjust the text size */
+    padding: 5px; /* Reduce inner padding */
+  }
+table{
+  margin-left: 300px;
+}.get{
+  width:35px;
+}
+
+  
+.custom-card {
+  flex: 0 0 auto;
+  width: 18rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  padding: 1rem;
+}
+
+.custom-card h5 {
+  margin-bottom: 0.5rem;
+}
+
+.custom-card p {
+  font-size: 0.9rem;
+  color: #666;
+}.custom-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+
+
+
+
+
+
+
+

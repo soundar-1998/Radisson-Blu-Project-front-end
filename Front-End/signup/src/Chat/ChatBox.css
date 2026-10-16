@@ -1,0 +1,39 @@
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.chat-user {
+  text-align: right;
+  margin: 5px;
+  color: blue;
+}
+
+.chat-bot {
+  text-align: left;
+  margin: 5px;
+  color: green;
+}
+
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-input button {
+  padding: 10px;
+}

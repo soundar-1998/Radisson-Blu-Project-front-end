@@ -1,0 +1,303 @@
+/* /* .app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s color 0.3s;
+}.container{
+    text-align: center;
+    padding:20px;
+    border-radius: 10xp;
+    box-shadow:0 4px  20px black;
+}.app.light{
+    background-color: #ffff;
+    color:#fff;
+}.app.dark{
+    background-color:#1c1c1c;
+    color:#ffff;
+}.header{
+    margin-bottom:20px;
+}.toggle-container{
+    width:80px;
+}.toggle.active{
+    transform: translateX(40px);
+    background-color: #fa6060;
+} */
+ *{
+    margin:0;
+    padding: 0;
+box-sizing: border-box; 
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .toggle-btn {
+    margin-bottom:-200px;
+    margin-left: 1380px;
+    
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }.gtgroup{
+    margin-left: -100px;
+  }.carousel-inner img {
+    object-fit: cover;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  .custom-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    scroll-behavior: smooth;
+  }
+  
+  .custom-card {
+    flex: 0 0 auto;
+    width: 18rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 180px;
+    object-fit: cover;
+  }
+  
+  .custom-card-body {
+    padding: 1rem;
+  }
+  
+  .custom-card h5 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }.custom-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+.img1{
+  height:200px;
+  width:200px;
+}
+  
+/* App.css */
+.video-player {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 3000px;
+  height: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:10px;
+}h2 span{
+    font-size: 15px;
+    color:blue;
+}
+.container > div{
+height:200px;
+border:1px solid;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+background-position: fixed;
+}
+.container > div:hover{
+opacity: 1.0;
+transform: scale(0.98);
+}
+.container > div:nth-of-type(1){
+    grid-column:1/3;
+ }.container > div:nth-of-type(2){
+    grid-column:2/0;
+}
+ .container > div:nth-of-type(3){
+        grid-column:1/2;
+    }
+    
+.container > div:nth-of-type(4){
+    grid-column:3/2;
+}.container > div:nth-of-type(5){
+    grid-column:4/3;
+}
+
+
+.bg-1{
+    background-image: url('https://www.gtholidays.in/wp-content/uploads/2022/03/India-Tour-Packages-770x375.webp');
+    background-size: cover;
+}.bg-2{
+    background-image: ('\Images\card2.png');
+
+background-size: cover;
+}.bg-3{
+    background-image: url('https://www.gtholidays.in/packages/international/honeymoon-packages/');
+
+background-size: cover;
+}.bg-4{
+    background-image: url('https://www.gtholidays.in/packages/international/europe/');
+
+background-size: cover;
+}.bg-5{
+    background-image: url('https://www.gtholidays.in/packages/international/educational-tour-packages/');
+
+background-size: cover;
+}.table ul{
+    margin-left: 250px;
+}
+.trend{
+    margin-left: 200px;
+    cursor: pointer;
+}
+.top{
+    position:fixed;
+    bottom:2.1rem;
+    right:2,1rem;
+}.top i{
+    color:#000;
+    background:rgb(194, 130, 109);
+    font-size:20px;
+    padding:10px;
+    border-radius: 0.5rem;
+} 
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  z-index: 999;
+}
+
+.chatbox {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.chat-message.user {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+}
+
+.chat-message.bot {
+  background-color: #f8d7da;
+  align-self: flex-start;
+}
+
+.chat-input {
+  display: flex;
+  gap: 5px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.chat-input button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
